@@ -1,0 +1,126 @@
+.button {
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-cursor: hand;
+    -fx-effect: none;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+.text-field {
+    -fx-background-color: transparent;
+    -fx-border-width: 0 0 2px 0;
+    -fx-border-color: #666666;
+    -fx-padding: 6 0 4 0;
+    -fx-font-size: 14px;
+    -fx-text-fill: #222222;
+    -fx-prompt-text-fill: #999999;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-cursor: text;
+}
+
+.text-field:focused {
+    -fx-border-color: black;
+    -fx-border-width: 0 0 3px 0;
+    -fx-prompt-text-fill: transparent;
+}
+
+.buttonM {
+    -fx-background-color: transparent;
+    -fx-text-fill: #219ebc;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20;
+    -fx-border-color: #219ebc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-cursor: hand;
+    -fx-effect: none;
+    -fx-font-weight: bold;
+}
+
+.buttonM:hover {
+    -fx-background-color: #219ebc;
+    -fx-text-fill: white;
+}
+
+
+.list-view {
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-padding: 0;
+    -fx-control-inner-background: white;
+    -fx-font-family: "Poppins";
+    -fx-font-size: 14px;
+}
+
+.list-cell {
+    -fx-padding: 8px 12px;
+    -fx-border-width: 0 0 1px 0;
+    -fx-border-color: transparent;
+    -fx-background-color: white;
+    -fx-text-fill: #333;
+    -fx-transition: all 0.3s ease;
+}
+
+.list-cell:hover {
+    -fx-border-color: #bbb;
+    -fx-background-color: #f9f9f9;
+    -fx-cursor: hand;
+}
+
+.list-cell:selected {
+    -fx-background-color: #e0e0e0;
+    -fx-text-fill: black;
+    -fx-border-color: #999;
+}
+
+.buttonR {
+    -fx-background-color: transparent;
+    -fx-text-fill: Red;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20;
+    -fx-border-color: Red;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-cursor: hand;
+    -fx-effect: none;
+    -fx-font-weight: bold;
+}
+
+.buttonR:hover {
+    -fx-background-color: Red;
+    -fx-text-fill: white;
+}
+
+.buttonC {
+    -fx-background-color: transparent;
+    -fx-text-fill: Green;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20;
+    -fx-border-color: Green;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-cursor: hand;
+    -fx-effect: none;
+    -fx-font-weight: bold;
+}
+
+.buttonC:hover {
+    -fx-background-color: Green;
+    -fx-text-fill: white;
+}
+

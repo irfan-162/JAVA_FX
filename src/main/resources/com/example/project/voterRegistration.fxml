@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="600.0" style="-fx-background-color: white;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.VoterRegistration">
+   <children>
+      <TextField fx:id="pass" layoutX="223.0" layoutY="228.0" prefHeight="52.0" prefWidth="250.0" />
+      <TextField fx:id="confirmPass" layoutX="223.0" layoutY="315.0" prefHeight="52.0" prefWidth="250.0" />
+      <Button fx:id="reqReg" layoutX="352.0" layoutY="582.0" mnemonicParsing="false" onAction="#reqReg" prefHeight="43.0" prefWidth="207.0" styleClass="button" text="Request Registration" />
+      <TextField fx:id="name" layoutX="227.0" layoutY="145.0" prefHeight="52.0" prefWidth="250.0" />
+      <Label layoutX="87.0" layoutY="159.0" styleClass="label-light" text="Enter UserName">
+         <font>
+            <Font name="ArtifaktElement-Black" size="16.0" />
+         </font></Label>
+      <TextField fx:id="mobo" layoutX="223.0" layoutY="398.0" prefHeight="52.0" prefWidth="250.0" />
+      <Label layoutX="87.0" layoutY="242.0" styleClass="label-light" text="Enter Password">
+         <font>
+            <Font name="ArtifaktElement-Black" size="16.0" />
+         </font></Label>
+      <Label layoutX="66.0" layoutY="329.0" styleClass="label-light" text="Confirm Password">
+         <font>
+            <Font name="ArtifaktElement-Black" size="16.0" />
+         </font></Label>
+      <Label layoutX="48.0" layoutY="412.0" styleClass="label-light" text="Enter Mobile Number">
+         <font>
+            <Font name="ArtifaktElement-Black" size="16.0" />
+         </font></Label>
+      <Label layoutX="163.0" layoutY="100.0" styleClass="label-error" text="NOTE : USERNAME MUST BE OF 10 CHARACTERS!!!" />
+      <Label fx:id="errorMessage" layoutX="213.0" layoutY="587.0" styleClass="label-error" text="" />
+      <Button fx:id="backToMain" layoutX="433.0" layoutY="720.0" mnemonicParsing="false" onAction="#backToMain" prefHeight="26.0" prefWidth="122.0" styleClass="buttonM" text="Main Menu" />
+      <TextField fx:id="region" layoutX="223.0" layoutY="475.0" prefHeight="52.0" prefWidth="250.0" />
+      <Label layoutX="107.0" layoutY="489.0" styleClass="label-light" text="Enter Region">
+         <font>
+            <Font name="ArtifaktElement-Black" size="16.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
