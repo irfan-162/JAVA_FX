@@ -14,5 +14,6 @@ Live Results:
 The system displays real-time voting results while the election is ongoing.
 
 Winner Announcement:
+Once the voting time ends, the system shows the final results and winner.
 
 Additional functionalities are included—check out the repository for full details.
